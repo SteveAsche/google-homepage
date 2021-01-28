@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <style>
-  body,html{height:100%;margin:0;padding:0}
+  body,html{height:100%;margin:0;padding:0; font-family: Arial, Helvetica, sans-serif;}
   #viewport{min-height:100%;position:relative;width:100%}
   .content{padding-bottom:35px}
   #footer{bottom:0;font-size:10pt;height:105px;width:100%}
@@ -24,6 +24,27 @@
     
   }
 
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      
+      
+  }
+
+  li {
+      display: inline;
+      text-decoration: none;
+  }
+
+  a {
+      color:black;
+      text-decoration: none;
+  }
+
+a:hover {
+    text-decoration: underline;
+}
 </style>
 <head>
   <meta charset="UTF-8">
@@ -31,7 +52,14 @@
     <title>Google</title>
 </head>
 <body>
-    <p>Let this be the first</p>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#store">Store</a></li>
+        <li style="padding-right: 20%"><a href="#gmail">Gmail</a></li>
+        <li style="float:inline-end"><a href="#images">Images</a></li>
+        <li style="float:inline-end"><a href="#signin">Sign In</a></li>
+    </ul> 
+    <!-- <p>Let this be the first</p> -->
     <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
     <b></b>
     <div>
